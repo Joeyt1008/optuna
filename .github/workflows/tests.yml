@@ -97,6 +97,6 @@ jobs:
               pip install --progress-bar off .[optional] && \
               pip install scikit-optimize && \
               pip install cma && \
-              pip install botorch torch==1.8.0+cpu -f https://download.pytorch.org/whl/torch_stable.html && \
+              pip install botorch torch && \
               pytest tests --ignore tests/integration_tests && \
               deactivate'
